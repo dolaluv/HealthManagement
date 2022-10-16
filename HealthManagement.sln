@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1267476F-A414-4F3B-BA20-E8426A31D74F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthRegistration", "HealthRegistration", "{F2CB1ADC-BB08-45EC-ACD3-C990CF28DB8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthRegistration.API", "src\Services\HealthRegistration\HealthRegistration.API\HealthRegistration.API.csproj", "{B116C6AF-BFB6-4B5A-A510-B1D11BF20B84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B116C6AF-BFB6-4B5A-A510-B1D11BF20B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B116C6AF-BFB6-4B5A-A510-B1D11BF20B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B116C6AF-BFB6-4B5A-A510-B1D11BF20B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B116C6AF-BFB6-4B5A-A510-B1D11BF20B84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2CB1ADC-BB08-45EC-ACD3-C990CF28DB8B} = {1267476F-A414-4F3B-BA20-E8426A31D74F}
+		{B116C6AF-BFB6-4B5A-A510-B1D11BF20B84} = {F2CB1ADC-BB08-45EC-ACD3-C990CF28DB8B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC16808F-166B-4A6E-8A79-EBBEFC921DDF}
+	EndGlobalSection
+EndGlobal
